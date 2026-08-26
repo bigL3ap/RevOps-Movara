@@ -1,4 +1,4 @@
-# [Client Name] — RevOps HubSpot Audit
+# Movara — RevOps HubSpot Audit
 
 Standing instructions for every Claude Code session in this repo:
 
