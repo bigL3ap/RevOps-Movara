@@ -6,23 +6,10 @@
       "source": { "source": "github", "repo": "bigL3ap/claude-plugins" }
     }
   },
-  "enabledPlugins": {
-    "hubspot-audit@bigleap": true
-  },
   "permissions": {
     "allow": [
       "Bash(claude plugin marketplace add:*)",
       "Bash(claude plugin install:*)"
-    ]
-  },
-  "hooks": {
-    "SessionStart": [
-      {
-        "matcher": "startup|resume",
-        "hooks": [
-          { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR\"/scripts/install-hubspot-audit-plugin.sh" }
-        ]
-      }
     ]
   }
 }
